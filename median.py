@@ -9,4 +9,13 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
-print(numbers)
+
+if len(numbers) % 2 == 1:
+    print(numbers[len(numbers) // 2])
+else:
+    x = numbers[len(numbers) // 2] - 1
+    y = x + 1
+
+    print((x + y) / 2)
+
+#print(numbers)
