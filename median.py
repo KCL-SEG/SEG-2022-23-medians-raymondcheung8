@@ -15,8 +15,8 @@ numbers.sort()
 if len(numbers) % 2 == 1:
     print(numbers[len(numbers) // 2])
 else:
-    x = numbers[len(numbers) // 2] - 1
-    y = x + 1
+    x = numbers[len(numbers) // 2 - 1]
+    y = numbers[len(numbers) // 2]
 
     print((x + y) / 2)
 
