@@ -10,6 +10,8 @@ while True:
     else:
         break
 
+numbers.sort()
+
 if len(numbers) % 2 == 1:
     print(numbers[len(numbers) // 2])
 else:
